@@ -3,20 +3,32 @@
     padding: 0;
     border: 0;
 }
+body{
+    background-color: #96BBBB;
+}
 h1, h2, h3, h4, p{
     text-align: center;
 }
 h2, h3{
     margin-bottom: 35px;
 }
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 2em;
+}
 nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: #001219;
+    color: white;
 }
 nav a{
     text-decoration: none;
     font-size: 20px;
+    color: white;
 } 
 nav ul{
     display: flex;
@@ -38,6 +50,8 @@ header{
     align-items: center;
     text-align: center;
     padding: 25px;
+    background-color: #001219;
+    color: white;
 }
 section{
     padding-top: 60px;
@@ -48,6 +62,10 @@ section{
     align-items: center;
     text-align: center;
     padding: 60px 15px;
+    background-color: #94d2bd;
+}
+#Formacao{
+    background-color: #94d2bd;
 }
 .icone{
     width: 70px;
@@ -68,6 +86,7 @@ section{
     flex-direction: column;
     align-items: center;
     width: 300px;
+    margin: 15px 0;
 }
 .card p{
     text-align: center;
@@ -79,10 +98,12 @@ section{
     flex-direction: row;
     justify-content: space-around;
     padding: 60px 0;
+    
 }
 #QualificacoesCompetencias li{
     margin:10px 20px;
 }
 footer{
     padding: 30px 0;
+    background-color: #94d2bd;
 }
