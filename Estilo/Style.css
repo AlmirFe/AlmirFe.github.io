@@ -107,3 +107,26 @@ footer{
     padding: 30px 0;
     background-color: #94d2bd;
 }
+
+@media screen and (max-width: 700px){
+    nav ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .containerCard{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        margin-left: 30px auto;
+        
+    }
+    #QualificacoesCompetencias{
+        flex-direction: column;
+    }
+    #Qualificacoes, #Competencias{
+        margin-right: auto;
+    }
+
+}
