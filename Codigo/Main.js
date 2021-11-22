@@ -1,5 +1,5 @@
-let exp1 = "minha experiencia 1";
-let exp2 = "minha experiencia 2";
+let exp1 = "Programa que reúne vários estudantes de diferentes cursos, oferece um treinamento adequadoe os deixa responsaveis por definir, validar e prototipar uma solução para o problema proposto pela empresa patrocinadora.";
+let exp2 = "Responsável por prestar suporte técnico de nível 1 à clientes em relação aos softwares oferecidos pela empresa. O suporte é realizado através de telefone, email, chat ou presencialmente.";
 
 function info(opcao){
     let cardInfo = document.createElement('div');
@@ -28,4 +28,3 @@ function info(opcao){
     console.log(texto);
     document.body.appendChild(container);
 }
-info(2)
