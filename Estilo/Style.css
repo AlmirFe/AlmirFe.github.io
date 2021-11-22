@@ -124,7 +124,7 @@ footer{
     flex-direction: column;
     width: 300px;
     height: 400px;
-    background-color: coral;
+    background-color: rgb(255, 80, 162);
     text-align: center;
 }
 .info button{
