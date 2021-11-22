@@ -7,17 +7,22 @@ function info(opcao){
     let texto = opcao == 1 ? document.createTextNode(exp1) : document.createTextNode(exp2);
     let container = document.createElement('div');
     let botao = document.createElement('button');
+    let textInfo = document.createElement('div');
 
 
     cardInfo.setAttribute('class', 'info');
     container.setAttribute('id', 'containerInfo');
+    textInfo.setAttribute('class', 'textInfo');
     botao.textContent = 'Sair';
     botao.addEventListener('click', function(){ console.log('remover'); let conteudo = document.getElementById('containerInfo'); conteudo.parentNode.removeChild(conteudo);});
     titulo.textContent = "Detalhes";
 
+    textInfo.appendChild(texto);
+
     cardInfo.appendChild(titulo);
-    cardInfo.appendChild(texto);
+    cardInfo.appendChild(textInfo);
     cardInfo.appendChild(botao);
+    
     container.appendChild(cardInfo);
 
     console.log(texto);

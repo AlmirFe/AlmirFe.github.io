@@ -124,15 +124,23 @@ footer{
     flex-direction: column;
     width: 300px;
     height: 400px;
-    background-color: rgb(255, 80, 162);
+    background-color: #94d2bd;
     text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px #001219 solid;
+}
+.textInfo{
+    height: 250px;
+    text-align: center;
+    overflow-y: auto;
 }
 .info button{
-    width: 40px;
-    height: 20px;
+    width: 60px;
+    height: 30px;
     margin: auto;
-    background-color: #94d2bd;
-    color: black;
+    background-color: #001219;
+    color: white;
     
 }
 
