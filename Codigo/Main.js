@@ -24,9 +24,3 @@ function info(opcao){
     document.body.appendChild(container);
 }
 info(2)
-function remover(){
-    console.log('remover');
-    let conteudo = document.getElementById('containerInfo');
-    console.log(conteudo)
-    //conteudo.style.zIndex = '9';
-}
